@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: helloGraphql
+
+graphql:
+  sensitive: false
+  enabled: true
+  path: /graphql
+  graphiql:
+    enabled: true
+    sensitive: false
+    version: 0.13.2
+    path: /graphiql
+    template-path: classpath:graphiql/index.html
+    template-parameters:
+    page-title: GraphiQL
